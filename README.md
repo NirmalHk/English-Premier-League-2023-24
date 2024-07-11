@@ -24,5 +24,12 @@ We can see that there's a clear majority of wins at Stamford Bridge (Home) with 
 
 ![image](https://github.com/NirmalHk/English-Premier-League-2023-24/assets/97601577/daa81dc4-3dd3-4e47-9362-7109f32aaefb)
 
-Now let's do the same for the Away Chelsea matches:
+
+Now let's do the same for the Away Chelsea matches, here the logic reverse as "H" counts as a LOSS and "A" counts as a WIN.
+
+![image](https://github.com/NirmalHk/English-Premier-League-2023-24/assets/97601577/3c4080e8-2958-4496-8e2c-69b6ea2d5c5d)
+
+7 Wins and 7 losses, with 5 draws. That's where majority of the points were dropped. Total points from away games = 26 points.
+
+Total points for Chelsea Football Club = 63 points.
  

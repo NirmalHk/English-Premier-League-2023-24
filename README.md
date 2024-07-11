@@ -46,5 +46,8 @@ Now let's do the same for the Away Chelsea matches, here the logic reverse as "H
 Chelsea Football Club performed better at HOME, compared to AWAY.
 
 
-maybe
+Now the question is, is this the case with other teams too? Let's find out!
+
+
+
  

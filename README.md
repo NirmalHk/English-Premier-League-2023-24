@@ -6,3 +6,18 @@ The abbrevations are pretty clear to a football nerd like me but there's a txt f
 https://football-data.co.uk/notes.txt
 PS. This has some weird betting data that's not gonna be useful for most people (don't gamble mate.)
 
+
+
+Firstly, let's take a look at Chelsea football club themselves and see where we lost all the points:
+
+Were CFC better at home or away?
+
+Firstly, let's check out all the CFC home games, if the result is:
+ A- Away win = LOSS.  
+ H- Home win = WIN , 
+ D= DRAW. 
+ Also let's make things more interesting, points scored will be:  win = 3 pts, Draw= 1pt and Loss = 0 pts.
+![image](https://github.com/NirmalHk/English-Premier-League-2023-24/assets/97601577/daa81dc4-3dd3-4e47-9362-7109f32aaefb)
+
+
+ 

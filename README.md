@@ -15,9 +15,14 @@ Firstly, let's take a look at Chelsea football club themselves and see where we 
 Were CFC better at home or away?
 
 Firstly, let's check out all the CFC home games, if the result is:
- A- Away win = LOSS.  
+
+ A- Away win = LOSS
+ 
  H- Home win = WIN , 
+ 
  D= DRAW. 
+
+ 
  Also let's make things more interesting, points scored will be:  win = 3 pts, Draw= 1pt and Loss = 0 pts.
 
 We can see that there's a clear majority of wins at Stamford Bridge (Home) with 11 W's and 4 a piece for losses and draws. Around 37 points were scored at HOME.

@@ -1,10 +1,7 @@
 # Were CFC better at home or away?
 
 #Firstly, let's check out all the CFC home games, if the result is:
-# A- Away win = LOSS.  
-# H- Home win = WIN , 
-# D= DRAW. 
-# Also let's make things more interesting, points scored will be:  win = 3 pts, Draw= 1pt and Loss = 0 pts.
+
 
 WITH home_results AS (
 select f.FT ,f.HomeTeam , count(f.FT) as results
@@ -20,7 +17,6 @@ ELSE (results*0)
 END AS POINTS
 FROM home_results;
 
-# OKAY! so looks like there's a lot more wins at home, with around 33 points from 11 wins, 4 Draws and around 4 Losses at home.
 
 # Now let's do the same for the Away Chelsea matches, here the logic reverse as "H" counts as a LOSS and "A" counts as a WIN.
 
@@ -38,5 +34,5 @@ ELSE (results*0)
 END AS POINTS
 FROM home_results
 
-# 7 Losses and 7 Wins, perfectly balanced. That's where we lost the majority of points. There were also 5 draws, that's another potential 10 points lost.
+
 

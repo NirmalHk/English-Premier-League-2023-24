@@ -8,7 +8,7 @@ PS. This has some weird betting data that's not gonna be useful for most people 
 
 
 
-
+ 
 
 
 
@@ -44,12 +44,6 @@ Now let's do the same for the Away Chelsea matches, here the logic reverse as "H
 7 Wins and 7 losses, with 5 draws. That's where majority of the points were dropped. Total points from away games = 26 points.
 
 Chelsea Football Club performed better at HOME, compared to AWAY.
-
-
-
-Now the questions arise, is this the case with other teams too? 
-
-
 
 
 maybe

@@ -17,7 +17,10 @@ Firstly, let's check out all the CFC home games, if the result is:
  H- Home win = WIN , 
  D= DRAW. 
  Also let's make things more interesting, points scored will be:  win = 3 pts, Draw= 1pt and Loss = 0 pts.
+
+We can see that there's a clear majority of wins at Stamford Bridge (Home) with 11 W's and 4 a piece for losses and draws. Around 37 points were scored at HOME.
+
 ![image](https://github.com/NirmalHk/English-Premier-League-2023-24/assets/97601577/daa81dc4-3dd3-4e47-9362-7109f32aaefb)
 
-
+Now let's do the same for the Away Chelsea matches:
  

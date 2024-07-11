@@ -8,6 +8,8 @@ PS. This has some weird betting data that's not gonna be useful for most people 
 
 
 
+
+
 Firstly, let's take a look at Chelsea football club themselves and see where we lost all the points:
 
 Were CFC better at home or away?

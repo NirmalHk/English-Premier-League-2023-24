@@ -10,9 +10,16 @@ PS. This has some weird betting data that's not gonna be useful for most people 
 
 
 
+
+
+
 Firstly, let's take a look at Chelsea football club themselves and see where we lost all the points:
 
+
+
 Were CFC better at home or away?
+
+
 
 Firstly, let's check out all the CFC home games, if the result is:
 
@@ -20,7 +27,7 @@ Firstly, let's check out all the CFC home games, if the result is:
  
  H- Home win = WIN , 
  
- D= DRAW. 
+ D= DRAW
 
  
  Also let's make things more interesting, points scored will be:  win = 3 pts, Draw= 1pt and Loss = 0 pts.

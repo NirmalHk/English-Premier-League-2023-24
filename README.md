@@ -57,7 +57,8 @@ Arsenal and Liverpool very impressive, followed closely by Manchester City. Mean
 
 Now let's take a look at the away form and find the best visiting teams!
 
+![image](https://github.com/user-attachments/assets/b897b0fc-a694-4ac7-a7fa-0c6abb23728d)
 
-
+Manchester City impressive away from home, followed by Arsenal and Liverpool. City clearly the best team in the league and has been for a while.
 
  

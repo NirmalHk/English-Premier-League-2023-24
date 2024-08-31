@@ -49,5 +49,15 @@ Chelsea Football Club performed better at HOME, compared to AWAY.
 Now the question is, is this the case with other teams too? Let's find out!
 
 
+Let's take a look at the whole league and figure out the best performing teams at home and away. Using the same logic we used above, I extended the query to qualify more teams and made use of CTE's and window functions to give them a ranking to find the top performing home teams.
+
+![image](https://github.com/user-attachments/assets/27f84b77-2601-456a-a5f0-085a607a2574)
+
+Arsenal and Liverpool very impressive, followed closely by Manchester City. Meanwhile the likes of Chelsea and Manchester United are lingering around in 7th and 8th. Talk about fallen giants.
+
+Now let's take a look at the away form and find the best visiting teams!
+
+
+
 
  

@@ -1,0 +1,91 @@
+# Were CFC better at home or away?
+
+# First check all CFC games at home, if the result is A- Away win = LOSS.  H- Home win = WIN , 
+# D= DRAW. Also win = 3 pts, Draw= 1pt and Loss = 0 pts.
+
+WITH home_results AS (
+select f.FT ,f.HomeTeam , count(f.FT) as results
+from footy_data f
+where HomeTeam = "Chelsea"
+group by f.FT, f.HomeTeam) 
+
+Select FT, HomeTeam, results,
+CASE
+WHEN FT = "D" THEN (results*1)
+WHEN FT = "H" THEN (results*3)
+ELSE (results*0)
+END AS POINTS
+FROM home_results
+order by POINTS DESC;
+
+# OKAY! so looks like there's a lot more wins at home, with around 33 points from 11 wins, 4 Draws and around 4 Losses at home.
+
+# Now let's do the same for the Away Chelsea matches:
+
+WITH away_results AS (
+select f.FT ,f.AwayTeam , count(f.FT) as results
+from footy_data f
+where AwayTeam = "Chelsea"
+group by f.FT, f.AwayTeam) 
+
+Select FT, AwayTeam, results,
+CASE
+WHEN FT = "D" THEN (results*1)
+WHEN FT = "A" THEN (results*3)
+ELSE (results*0)
+END AS POINTS
+FROM away_results
+ORDER BY POINTS DESC;
+
+# 7 Losses and 7 Wins, perfectly balanced. That's where we lost the majority of points. There were also 5 draws, that's another potential 10 points lost.
+
+
+
+
+# Best team at home?
+WITH home_results AS (
+select f.FT ,f.HomeTeam , count(f.FT) as results
+from footy_data f
+#where HomeTeam = "Chelsea"
+group by f.FT, f.HomeTeam) ,
+
+
+HR2 AS (
+Select FT, HomeTeam, results,
+CASE
+WHEN FT = "D" THEN (results*1) 
+WHEN FT = "H" THEN (results*3) 
+ELSE (results*0) 
+END AS POINTS
+FROM home_results
+where FT = "H"
+order by POINTS DESC)
+
+SELECT *, ROW_NUMBER() OVER(PARTITION BY FT ORDER BY POINTS DESC) AS RANKING FROM HR2
+
+
+
+# Best away team in the league?
+
+WITH away_results AS (
+select f.FT ,f.AwayTeam , count(f.FT) as results
+from footy_data f
+group by f.FT, f.AwayTeam) ,
+
+
+AR2 AS (
+Select FT, AwayTeam, results,
+CASE
+WHEN FT = "D" THEN (results*1) 
+WHEN FT = "A" THEN (results*3) 
+ELSE (results*0) 
+END AS POINTS
+FROM away_results
+where FT = "A"
+order by POINTS DESC)
+
+SELECT *, ROW_NUMBER() OVER(PARTITION BY FT ORDER BY POINTS DESC) AS RANKING FROM AR2
+
+
+
+

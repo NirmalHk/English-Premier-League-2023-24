@@ -73,7 +73,7 @@ AT STAMFORD BRIDGE (HOME GROUND):
 
 
 
-Surpisingly, Anthony Taylor (Who has a strong history of being biased against chelsea and is widely known) seemed to be the 3rd best referee for Chelsea at home with around 2 wins coming during his reign. But it gets interesting the more you look into it...why is he the one with the most amount of games at home? He has had around 4 games at the bridge when everyone knows he tends to screw chelsea over. FISHY FISHY!
+Surprisingly, Anthony Taylor (Who has a strong history of being biased against chelsea and is widely known) seemed to be the 3rd best referee for Chelsea at home with around 2 wins coming during his reign. But it gets interesting the more you look into it...why is he the one with the most amount of games at home? He has had around 4 games at the bridge when everyone knows he tends to screw chelsea over. FISHY FISHY!
 It's a 38 game season and he has already taken charge of 4 at home. Let's take a look at the Away results and see if the theme remains....
 
 
@@ -85,5 +85,5 @@ It's a 38 game season and he has already taken charge of 4 at home. Let's take a
 So it looks like he has not taken any other gigs apart from the home fixtures which infuriates everyone involved (me included).
 But the investigation did its job as suspect no.2 (Simon Hooper) has made his mark. He is another figure that is regarded as another enemy to the club and he has never refereed a win this season.
 
-Now that we have the main perpetrator, let's take a look at what happened these games:
+From all the data that I took a look at, it seems the poor performance is more likely due to being actually poor rather than subpar referee decisions.
 

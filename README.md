@@ -61,4 +61,21 @@ Now let's take a look at the away form and find the best visiting teams!
 
 Manchester City impressive away from home, followed by Arsenal and Liverpool. City clearly the best team in the league and has been for a while.
 
- 
+
+
+DID CHELSEA FALL VICTIM TO THE USUAL REFEREE CURSE?
+
+AT STAMFORD BRIDGE (HOME GROUND):
+![image](https://github.com/user-attachments/assets/6f6c1f9c-bb13-482f-94d6-0d646053e220)
+
+
+Surpisingly, Anthony Taylor (Who has a strong history of being biased against chelsea and is widely known) seemed to be the 3rd best referee for Chelsea at home with around 2 wins coming during his reign. But it gets interesting the more you look into it...why is he the one with the most amount of games at home? He has had around 4 games at the bridge when everyone knows he tends to screw chelsea over. FISHY FISHY!
+It's a 38 game season and he has already taken charge of 4 at home. Let's take a look at the Away results and see if the theme remains....
+
+![image](https://github.com/user-attachments/assets/f76db32b-a88a-4713-bf66-0007264e085a)
+
+So it looks like he has not taken any other gigs apart from the home fixtures which infuriates everyone involved (me included).
+But the investigation did its job as suspect no.2 (Simon Hooper) has made his mark. He is another figure that is regarded as another enemy to the club and he has never refereed a win this season.
+
+Now that we have the main perpetrator, let's take a look at what happened these games:
+

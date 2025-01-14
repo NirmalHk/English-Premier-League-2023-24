@@ -88,4 +88,49 @@ SELECT *, ROW_NUMBER() OVER(PARTITION BY FT ORDER BY POINTS DESC) AS RANKING FRO
 
 
 
+# WHO WERE THE BEST REFEREES AT HOME ?
 
+WITH chels_home as(
+select f.FT ,f.HomeTeam, f.Referee, count(f.FT)  as results
+from footy_data f
+where HomeTeam = "Chelsea"
+group by f.FT, f.HomeTeam, f.Referee
+),
+
+HR2 AS (
+Select FT, HomeTeam, results,referee,
+CASE
+WHEN FT = "D" THEN (results*1) 
+WHEN FT = "H" THEN (results*3) 
+ELSE (results*0) 
+END AS POINTS
+FROM chels_home
+where FT = "H"
+order by POINTS DESC)
+
+SELECT *, ROW_NUMBER() OVER(PARTITION BY FT ORDER BY POINTS DESC) AS RANKING FROM HR2
+
+
+
+
+# WHO WERE THE BEST REFEREES AWAY FROM HOME ?
+
+WITH chels_away as(
+select f.FT ,f.AwayTeam , f.referee, count(f.FT)  as results
+from footy_data f
+where f.AwayTeam = "Chelsea"
+group by f.FT ,f.AwayTeam , f.referee
+),
+
+AR2 AS (
+Select FT, AwayTeam, results, referee,
+CASE
+WHEN FT = "D" THEN (results*1) 
+WHEN FT = "A" THEN (results*3) 
+ELSE (results*0) 
+END AS POINTS
+FROM chels_away
+#where FT = "H"
+order by POINTS DESC)
+
+SELECT *, ROW_NUMBER() OVER(PARTITION BY FT ORDER BY POINTS DESC) AS RANKING FROM AR2
